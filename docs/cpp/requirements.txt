@@ -1,7 +1,10 @@
-sphinx==3.1.2
+sphinx==3.3.0
 breathe==4.25.0
 exhale==0.2.3
 -e git+https://github.com/pytorch/pytorch_sphinx_theme.git#egg=pytorch_sphinx_theme
 bs4
 lxml
 six
+requests>=2.32.2 # not directly required, pinned by Snyk to avoid a vulnerability
+setuptools>=70.0.0 # not directly required, pinned by Snyk to avoid a vulnerability
+urllib3>=2.2.2 # not directly required, pinned by Snyk to avoid a vulnerability
